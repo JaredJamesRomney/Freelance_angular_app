@@ -16,21 +16,21 @@ var DocumentsComponent = (function () {
                 description: 'Its my first time',
                 file_url: 'http://google.com',
                 updated_at: 'Yesterday',
-                image_url: 'http://google.com',
+                image_url: 'http://www.java-studios.com/wp-content/uploads/2016/07/freelancing.jpg',
             },
             {
                 title: "My Second Doc",
                 description: 'Its my first time',
                 file_url: 'http://google.com',
                 updated_at: 'Yesterday',
-                image_url: 'http://google.com',
+                image_url: 'https://www.cloudbooksapp.com/blog/wp-content/uploads/2015/10/ddvdsrfgrtgr.jpg',
             },
             {
                 title: "My Third Doc",
                 description: 'Its my first time',
                 file_url: 'http://google.com',
                 updated_at: 'Yesterday',
-                image_url: 'http://google.com',
+                image_url: 'https://cdn.elegantthemes.com/blog/wp-content/uploads/2015/08/Freelancer-vs-Agency-shutterstock_295721123.png',
             }
         ];
     }
@@ -38,7 +38,8 @@ var DocumentsComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'documents',
-            templateUrl: 'documents.component.html'
+            templateUrl: 'documents.component.html',
+            styleUrls: ['documents.component.css'],
         })
     ], DocumentsComponent);
     return DocumentsComponent;
